@@ -705,7 +705,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  */
 
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_7eXkZwRb0KiNhWf14cfHrkmE3P7DENN9NtwVxuXUM8mGe1LUVPU6LI4d2rnqtkl5fMy-k4QF2A/sync';
+$config_directories['sync'] = '../configs';
 
 /**
  * Load local development override configuration, if available.
