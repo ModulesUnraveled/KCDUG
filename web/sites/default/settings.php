@@ -704,6 +704,9 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  * example.org, with all subdomains included.
  */
 
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_7eXkZwRb0KiNhWf14cfHrkmE3P7DENN9NtwVxuXUM8mGe1LUVPU6LI4d2rnqtkl5fMy-k4QF2A/sync';
+
 /**
  * Load local development override configuration, if available.
  *
@@ -714,18 +717,6 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *
  * Keep this code block at the end of this file to take full effect.
  */
-# if (file_exists(__DIR__ . '/settings.local.php')) {
-#   include __DIR__ . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'kcdug',
-  'username' => 'root',
-  'password' => 'root',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_7eXkZwRb0KiNhWf14cfHrkmE3P7DENN9NtwVxuXUM8mGe1LUVPU6LI4d2rnqtkl5fMy-k4QF2A/sync';
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}
