@@ -1,0 +1,20 @@
+uuid: 4153534b-706f-4b9a-9207-07d684edfc2d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jethro
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: jethro_page_title
+theme: jethro
+region: highlighted
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
