@@ -9,7 +9,7 @@ _core:
 id: jethro_local_tasks
 theme: jethro
 region: content
-weight: -7
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

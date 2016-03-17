@@ -9,7 +9,7 @@ _core:
 id: jethro_local_actions
 theme: jethro
 region: content
-weight: -7
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:
