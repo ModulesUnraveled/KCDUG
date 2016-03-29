@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "20e77c15df2290d52c67a4815a6182c2",
-    "content-hash": "08a71a116fbbd5703a5f5df6e6a4c16b",
+    "hash": "3f5819bbe1548b304333ddee3d2f4838",
+    "content-hash": "48103f14ea5edc713bdc99c6fb16e60c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -804,6 +804,51 @@
             "time": "2016-02-21 04:48:56"
         },
         {
+            "name": "drupal/admin_toolbar",
+            "version": "8.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/admin_toolbar.git",
+                "reference": "bb7533adfce88bf783dcb23aea137ee9dbd80cdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.14.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/node": "8.*",
+                "drupal/toolbar": "8.*"
+            },
+            "replace": {
+                "drupal/admin_toolbar_tools": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/admin_toolbar_tools"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Anis Taktak",
+                    "homepage": "https://www.drupal.org/u/matio89"
+                }
+            ],
+            "description": "Admin Toolbar improve the default Drupal Toolbar,it lets the hover of sub menus.",
+            "homepage": "http://drupal.org/project/admin_toolbar",
+            "time": "2016-02-08 14:39:48"
+        },
+        {
             "name": "drupal/console",
             "version": "0.10.12",
             "source": {
@@ -1087,6 +1132,33 @@
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
             "homepage": "https://www.drupal.org/project/ctools"
+        },
+        {
+            "name": "drupal/jethro",
+            "version": "8.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/jethro.git",
+                "reference": "6a9ca8a934d7892e96205cfc9e22e301dfab6e4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/jethro-8.x-1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Bootsrap Mobile Responsive theme",
+            "homepage": "https://www.drupal.org/project/jethro"
         },
         {
             "name": "drupal/pathauto",
@@ -2777,7 +2849,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/fbd0083cd9dac06556bd1096deaa0295c18a7584",
+                "url": "https://api.github.com/repos/symfony/config/zipball/9b4d2c0ba53d3226f455d5cc7d3655f6a5371b37",
                 "reference": "fbd0083cd9dac06556bd1096deaa0295c18a7584",
                 "shasum": ""
             },
@@ -3842,7 +3914,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ab94426d127ad9e95433778a3a451fe9d18f3d6b",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/71b6534179d2381dc9a768369e5dafb8929fba34",
                 "reference": "ab94426d127ad9e95433778a3a451fe9d18f3d6b",
                 "shasum": ""
             },
