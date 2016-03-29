@@ -9,6 +9,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -35,11 +36,11 @@ module:
   text: 0
   token: 0
   toolbar: 0
-  tour: 0
   update: 0
   user: 0
   views_ui: 0
   menu_link_content: 1
+  pathauto: 1
   views: 10
   standard: 1000
 theme:
@@ -47,5 +48,6 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
+  jethro: 0
 _core:
   default_config_hash: m2GVq11UAOVuNgj8x0t5fMOPujpvQQ_zxLoaly1BMEU
